@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+*.egg-info/
+build/
+dist/
+
+# Local model weights and logs
+/weights/
+/weights-*/
+expert-*.npy
+ZeroNet-2B-MoE-*.zip
+ZeroNet-2B-MoE-*.zip.sha256
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-25",
+  "training": {
+    "format": 1,
+    "trained_experts": 1000,
+    "total_parameters": 2000000000,
+    "active_parameters": 2000000,
+    "steps_per_expert": 64,
+    "batch_size": 64,
+    "seed": 2026,
+    "training_seconds": 430.859
+  },
+  "evaluation": {
+    "seed": 2027,
+    "cases_per_expert": 256,
+    "examples": 256000,
+    "correct": 179121,
+    "accuracy": 0.69969140625,
+    "confusion_matrix": [
+      [
+        128043,
+        0
+      ],
+      [
+        76879,
+        51078
+      ]
+    ],
+    "confusion_matrix_order": [
+      "zero",
+      "nonzero"
+    ]
+  },
+  "evaluation_seconds": 12.961,
+  "weight_files": 1000,
+  "weight_bytes": 4000128000,
+  "release": {
+    "version": "v0.1.0",
+    "filename": "ZeroNet-2B-MoE-v0.1.0-int8.zip",
+    "bytes": 2000130370,
+    "sha256": "f6fc6ac6022a7e70cf8702c31899e9099117a942832b012386a4bec3b99e98a6",
+    "weight_encoding": "int8-per-layer-v1",
+    "evaluation": {
+      "seed": 2027,
+      "cases_per_expert": 256,
+      "examples": 256000,
+      "correct": 179121,
+      "accuracy": 0.69969140625,
+      "confusion_matrix": [
+        [
+          128043,
+          0
+        ],
+        [
+          76879,
+          51078
+        ]
+      ],
+      "confusion_matrix_order": [
+        "zero",
+        "nonzero"
+      ]
+    }
+  }
+}
